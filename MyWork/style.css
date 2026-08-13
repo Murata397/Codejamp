@@ -11,4 +11,68 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  font-family: noto-sans-jp, ;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 60px;
+  padding: 60px;
+}
+
+/* page-logo */
+
+.header-title > img {
+  align-items: center;
+  margin-left: 60px;
+}
+
+
+/* nav */
+
+.header-nav-container {
+  text-align: center;
+  font-size: 14px;
+  margin-right: 100px;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #000;
+}
+
+.header-nav-item > a >img{
+  width: 20px;
+}
+
+/* main */
+
+.main-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.main-photo-container > img {
+  overflow: clip;
+  overflow-clip-margin: content-box;
+  width: 100%;
+}
+
+/* about */
+
+.section-title {
+  font-size: 24px;
 }
