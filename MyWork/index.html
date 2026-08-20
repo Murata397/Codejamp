@@ -38,7 +38,11 @@
         <!--main-photo-->
         <section class="main-photo">
           <div class="main-photo-container">
-            <img src="images/mainvisual-pc.jpg" alt="メインビジュアル">
+            <picture>
+              <source media="(max-width: 767px)" srcset="images/mainvisual-sp.jpg">
+              <source media="(min-width: 768px)" srcset="images/mainvisual-pc.jpg">
+              <img src="images/mainvisual-pc.jpg" alt="メインビジュアル">
+            </picture>
           </div>
         </section>
 
@@ -132,7 +136,7 @@
               <textarea id="message" name="message"></textarea>
             </div>
 
-            <input type="submit" value="送信">
+            <input type="submit" value="送信する">
 
           </form>
         </section>
